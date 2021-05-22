@@ -56,8 +56,7 @@ console.log(result4);
 /*result5 будет равен NaN
 * 1. 10 / +"2,5" = NaN
 *Не совсем тут разобрался. Видимо при делении числа на NaN результатом будет являться NaN */
-let a = +"2,5";
-console.log(a);//выводит в консоль NaN
-console.log(typeof(a));//выводит в консоль number
+
 let result5 = 10 / +"2,5";
 console.log(result5);
+console.log(typeof(result5));
