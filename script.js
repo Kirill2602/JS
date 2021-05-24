@@ -1,8 +1,10 @@
+
+'use strict';
 //Первое задание.
 
 let tC = +prompt('Введите температуру по цельсию');
 let tF = (9 / 5) * tC + 32;
-alert('Температура по Фарингейту равна ' + tF);
+alert('Температура по Фарингейту равна ' + tF.toFixed(2));
 
 //Второе задание.
 
@@ -21,7 +23,7 @@ console.log('Переменная admin равна ' + admin);
 * 5. console.log выводит result в консоль
 * */
 let result = 10 + 10 + "10";
-console.log(typeof(result));
+console.log(result);
 
 
 /*№2 result2 будет равен 101010
@@ -31,7 +33,7 @@ console.log(typeof(result));
 * 5. console.log выводит result2 в консоль*/
 
 let result2 = 10 + "10" + 10;
-console.log(typeof(result2));
+console.log(result2);
 
 
 /*№3 result3 будет равен 30
@@ -59,4 +61,3 @@ console.log(result4);
 
 let result5 = 10 / +"2,5";
 console.log(result5);
-console.log(typeof(result5));
